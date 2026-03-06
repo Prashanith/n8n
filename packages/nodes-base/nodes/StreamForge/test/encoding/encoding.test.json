@@ -17,8 +17,8 @@
         "url": "https://dummy.domain/index.html",
         "options": {}
       },
-      "name": "HTTP Request (v3)",
-      "type": "n8n-nodes-base.httpRequest",
+      "name": "StreamForge HTTP Request (v3)",
+      "type": "n8n-nodes-base.streamForgeHttpRequest",
       "typeVersion": 3,
       "position": [
         520,
@@ -31,8 +31,8 @@
         "url": "https://dummy.domain/index.html",
         "options": {}
       },
-      "name": "HTTP Request (v4)",
-      "type": "n8n-nodes-base.httpRequest",
+      "name": "StreamForge HTTP Request (v4)",
+      "type": "n8n-nodes-base.streamForgeHttpRequest",
       "typeVersion": 4,
       "position": [
         520,

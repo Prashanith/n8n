@@ -29,7 +29,7 @@
       },
       "id": "07670093-862f-403f-96a5-ddf7fdb0d225",
       "name": "HTTP Request",
-      "type": "n8n-nodes-base.httpRequest",
+      "type": "n8n-nodes-base.streamForgeHttpRequest",
       "typeVersion": 3,
       "position": [
         1100,

@@ -1,5 +1,5 @@
 {
-	"name": "HTTP Request test",
+	"name": "StreamForge HTTP Request test",
 	"nodes": [
 	  {
 		"parameters": {},
@@ -18,8 +18,8 @@
 		  "options": {}
 		},
 		"id": "96f38d87-0bdd-420c-b981-26fd55d11cb2",
-		"name": "HTTP Request",
-		"type": "n8n-nodes-base.httpRequest",
+		"name": "StreamForge HTTP Request",
+		"type": "n8n-nodes-base.streamForgeHttpRequest",
 		"typeVersion": 3,
 		"position": [
 		  460,
@@ -42,7 +42,7 @@
 		},
 		"id": "85ca0a5b-3ff4-491d-ba51-990fdf2b757f",
 		"name": "HTTP Request fake header",
-		"type": "n8n-nodes-base.httpRequest",
+		"type": "n8n-nodes-base.streamForgeHttpRequest",
 		"typeVersion": 3,
 		"position": [
 		  460,
@@ -69,7 +69,7 @@
 		},
 		"id": "68d6e51a-66ea-45bf-928c-55efd2493cf0",
 		"name": "HTTP Request with query",
-		"type": "n8n-nodes-base.httpRequest",
+		"type": "n8n-nodes-base.streamForgeHttpRequest",
 		"typeVersion": 3,
 		"position": [
 		  460,
@@ -84,7 +84,7 @@
 		},
 		"id": "38ec1a50-7f0e-4749-822d-f26370b00694",
 		"name": "HTTP Request empty header",
-		"type": "n8n-nodes-base.httpRequest",
+		"type": "n8n-nodes-base.streamForgeHttpRequest",
 		"typeVersion": 3,
 		"position": [
 		  460,
@@ -186,3 +186,4 @@
 	},
 	"tags": []
   }
+

@@ -17,7 +17,7 @@
 			},
 			"id": "312e64ca-00bf-40e6-b21d-1f73930ef98c",
 			"name": "HTTP Request",
-			"type": "n8n-nodes-base.httpRequest",
+			"type": "n8n-nodes-base.streamForgeHttpRequest",
 			"typeVersion": 3,
 			"position": [1100, 360]
 		}

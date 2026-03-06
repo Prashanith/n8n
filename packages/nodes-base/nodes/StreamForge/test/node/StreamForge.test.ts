@@ -2,7 +2,7 @@ import { NodeTestHarness } from '@nodes-testing/node-test-harness';
 import nock from 'nock';
 import { parse as parseUrl } from 'url';
 
-describe('Test HTTP Request Node', () => {
+describe('Test StreamForge HTTP Request Node', () => {
 	const baseUrl = 'https://dummyjson.com';
 
 	beforeAll(async () => {

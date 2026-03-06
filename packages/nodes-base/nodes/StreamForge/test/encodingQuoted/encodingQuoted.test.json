@@ -14,8 +14,8 @@
 				"url": "https://dummy.domain/index.html",
 				"options": {}
 			},
-			"name": "HTTP Request (v3)",
-			"type": "n8n-nodes-base.httpRequest",
+			"name": "StreamForge HTTP Request (v3)",
+			"type": "n8n-nodes-base.streamForgeHttpRequest",
 			"typeVersion": 3,
 			"position": [520, 720],
 			"id": "eb243cfd-fbd6-41ef-935d-4ea98617355f"
@@ -25,8 +25,8 @@
 				"url": "https://dummy.domain/index.html",
 				"options": {}
 			},
-			"name": "HTTP Request (v4)",
-			"type": "n8n-nodes-base.httpRequest",
+			"name": "StreamForge HTTP Request (v4)",
+			"type": "n8n-nodes-base.streamForgeHttpRequest",
 			"typeVersion": 4,
 			"position": [520, 920],
 			"id": "cc2f185d-df6a-4fa3-b7f4-29f0dbad0f9b"
@@ -37,12 +37,12 @@
 			"main": [
 				[
 					{
-						"node": "HTTP Request (v3)",
+						"node": "StreamForge HTTP Request (v3)",
 						"type": "main",
 						"index": 0
 					},
 					{
-						"node": "HTTP Request (v4)",
+						"node": "StreamForge HTTP Request (v4)",
 						"type": "main",
 						"index": 0
 					}
@@ -51,14 +51,14 @@
 		}
 	},
 	"pinData": {
-		"HTTP Request (v3)": [
+		"StreamForge HTTP Request (v3)": [
 			{
 				"json": {
 					"data": "El rápido zorro marrón salta sobre el perro perezoso. ¡Qué bello día en París! Árbol, cañón, façade."
 				}
 			}
 		],
-		"HTTP Request (v4)": [
+		"StreamForge HTTP Request (v4)": [
 			{
 				"json": {
 					"data": "El rápido zorro marrón salta sobre el perro perezoso. ¡Qué bello día en París! Árbol, cañón, façade."
@@ -67,3 +67,4 @@
 		]
 	}
 }
+

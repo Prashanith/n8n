@@ -1,5 +1,5 @@
 {
-	"name": "http request test",
+	"name": "streamforge http request test",
 	"nodes": [
 		{
 			"parameters": {},
@@ -33,8 +33,8 @@
 				"options": {}
 			},
 			"id": "07670093-862f-403f-96a5-ddf7fdb0d225",
-			"name": "HTTP Request",
-			"type": "n8n-nodes-base.httpRequest",
+			"name": "StreamForge HTTP Request",
+			"type": "n8n-nodes-base.streamForgeHttpRequest",
 			"typeVersion": 3,
 			"position": [1140, 200]
 		},
@@ -48,8 +48,8 @@
 				"options": {}
 			},
 			"id": "db088210-2204-422c-823a-101afa464384",
-			"name": "HTTP Request1",
-			"type": "n8n-nodes-base.httpRequest",
+			"name": "StreamForge HTTP Request1",
+			"type": "n8n-nodes-base.streamForgeHttpRequest",
 			"typeVersion": 3,
 			"position": [1140, 440]
 		}

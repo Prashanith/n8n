@@ -1,9 +1,9 @@
 import type { IExecuteFunctions, INodeTypeBaseDescription } from 'n8n-workflow';
 
-import { HttpRequestV2 } from '../../V2/HttpRequestV2.node';
+import { StreamForgeV2 } from '../../V2/StreamForgeV2.node';
 
-describe('HttpRequestV2', () => {
-	let node: HttpRequestV2;
+describe('StreamForgeV2', () => {
+	let node: StreamForgeV2;
 	let executeFunctions: IExecuteFunctions;
 
 	const baseUrl = 'http://example.com';
@@ -20,18 +20,18 @@ describe('HttpRequestV2', () => {
 
 	beforeEach(() => {
 		const baseDescription: INodeTypeBaseDescription = {
-			displayName: 'HTTP Request',
-			name: 'httpRequest',
+			displayName: 'StreamForge HTTP Request',
+			name: 'streamForgeHttpRequest',
 			description: 'Makes an HTTP request and returns the response data',
 			group: [],
 		};
-		node = new HttpRequestV2(baseDescription);
+		node = new StreamForgeV2(baseDescription);
 		executeFunctions = {
 			getInputData: jest.fn(),
 			getNodeParameter: jest.fn(),
 			getNode: jest.fn(() => {
 				return {
-					type: 'n8n-nodes-base.httpRequest',
+					type: 'n8n-nodes-base.streamForgeHttpRequest',
 					typeVersion: 2,
 				};
 			}),

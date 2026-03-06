@@ -52,7 +52,7 @@ function toText<T>(data: T) {
 	}
 	return data;
 }
-export class HttpRequestV3 implements INodeType {
+export class StreamForgeV3 implements INodeType {
 	description: INodeTypeDescription;
 
 	constructor(baseDescription: INodeTypeBaseDescription) {
@@ -61,7 +61,7 @@ export class HttpRequestV3 implements INodeType {
 			subtitle: '={{$parameter["method"] + ": " + $parameter["url"]}}',
 			version: [3, 4, 4.1, 4.2, 4.3, 4.4],
 			defaults: {
-				name: 'HTTP Request',
+				name: 'StreamForge HTTP Request',
 				color: '#0004F5',
 			},
 			inputs: [NodeConnectionTypes.Main],
@@ -229,7 +229,7 @@ export class HttpRequestV3 implements INodeType {
 					} else if (credentialData.allowedHttpRequestDomains === 'none') {
 						throw new NodeOperationError(
 							this.getNode(),
-							'This credential is configured to prevent use within an HTTP Request node',
+							'This credential is configured to prevent use within a StreamForge HTTP Request node',
 						);
 					}
 				};

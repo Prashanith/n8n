@@ -33,7 +33,7 @@ interface OptionDataParameters {
 
 type IRequestOptionsKeys = keyof IRequestOptions;
 
-export class HttpRequestV1 implements INodeType {
+export class StreamForgeV1 implements INodeType {
 	description: INodeTypeDescription;
 
 	constructor(baseDescription: INodeTypeBaseDescription) {
@@ -41,7 +41,7 @@ export class HttpRequestV1 implements INodeType {
 			...baseDescription,
 			version: 1,
 			defaults: {
-				name: 'HTTP Request',
+				name: 'StreamForge HTTP Request',
 				color: '#2200DD',
 			},
 			inputs: [NodeConnectionTypes.Main],
@@ -711,7 +711,7 @@ export class HttpRequestV1 implements INodeType {
 				} else if (credentialData.allowedHttpRequestDomains === 'none') {
 					throw new NodeOperationError(
 						this.getNode(),
-						'This credential is configured to prevent use within an HTTP Request node',
+						'This credential is configured to prevent use within a StreamForge HTTP Request node',
 					);
 				}
 			};

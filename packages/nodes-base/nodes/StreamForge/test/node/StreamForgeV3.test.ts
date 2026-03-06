@@ -20,8 +20,8 @@ describe('HttpRequestV3', () => {
 
 	beforeEach(() => {
 		const baseDescription: INodeTypeBaseDescription = {
-			displayName: 'HTTP Request',
-			name: 'httpRequest',
+			displayName: 'StreamForge HTTP Request',
+			name: 'streamForgeHttpRequest',
 			description: 'Makes an HTTP request and returns the response data',
 			group: [],
 		};
@@ -31,7 +31,7 @@ describe('HttpRequestV3', () => {
 			getNodeParameter: jest.fn(),
 			getNode: jest.fn(() => {
 				return {
-					type: 'n8n-nodes-base.httpRequest',
+					type: 'n8n-nodes-base.streamForgeHttpRequest',
 					typeVersion: 3,
 				};
 			}),

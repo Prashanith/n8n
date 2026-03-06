@@ -9,8 +9,8 @@
 			"position": [580, 300]
 		},
 		{
-			"name": "HTTP Request (v1)",
-			"type": "n8n-nodes-base.httpRequest",
+			"name": "StreamForge HTTP Request (v1)",
+			\"type\": \"n8n-nodes-base.streamForgeHttpRequest\",
 			"typeVersion": 1,
 			"parameters": {
 				"url": "https://dummy.domain/path/to/image.png",
@@ -19,8 +19,8 @@
 			"position": [1020, -100]
 		},
 		{
-			"name": "HTTP Request (v2)",
-			"type": "n8n-nodes-base.httpRequest",
+			"name": "StreamForge HTTP Request (v2)",
+			\"type\": \"n8n-nodes-base.streamForgeHttpRequest\",
 			"typeVersion": 2,
 			"parameters": {
 				"url": "https://dummy.domain/path/to/image.png",
@@ -30,8 +30,8 @@
 			"position": [1020, 80]
 		},
 		{
-			"name": "HTTP Request (v3)",
-			"type": "n8n-nodes-base.httpRequest",
+			"name": "StreamForge HTTP Request (v3)",
+			\"type\": \"n8n-nodes-base.streamForgeHttpRequest\",
 			"typeVersion": 3,
 			"parameters": {
 				"url": "https://dummy.domain/path/to/image.png",
@@ -46,8 +46,8 @@
 			"position": [1020, 240]
 		},
 		{
-			"name": "HTTP Request (v4)",
-			"type": "n8n-nodes-base.httpRequest",
+			"name": "StreamForge HTTP Request (v4)",
+			\"type\": \"n8n-nodes-base.streamForgeHttpRequest\",
 			"typeVersion": 4,
 			"parameters": {
 				"url": "https://dummy.domain/path/to/image.png",
@@ -63,7 +63,7 @@
 		},
 		{
 			"name": "Follow Redirect",
-			"type": "n8n-nodes-base.httpRequest",
+			\"type\": \"n8n-nodes-base.streamForgeHttpRequest\",
 			"typeVersion": 4.1,
 			"parameters": {
 				"url": "https://dummy.domain/redirect-to-image",
@@ -79,7 +79,7 @@
 		},
 		{
 			"name": "Content Disposition",
-			"type": "n8n-nodes-base.httpRequest",
+			\"type\": \"n8n-nodes-base.streamForgeHttpRequest\",
 			"typeVersion": 4.1,
 			"parameters": {
 				"url": "https://dummy.domain/custom-content-disposition",
@@ -104,15 +104,15 @@
 					}
 				}
 			},
-			"name": "HTTP Request (v4)2",
-			"type": "n8n-nodes-base.httpRequest",
+			"name": "StreamForge HTTP Request (v4)2",
+			\"type\": \"n8n-nodes-base.streamForgeHttpRequest\",
 			"typeVersion": 4,
 			"position": [1680, 600],
 			"id": "665fef5c-6380-4bc0-be2a-430446b140ca"
 		}
 	],
 	"pinData": {
-		"HTTP Request (v1)": [
+		"StreamForge HTTP Request (v1)": [
 			{
 				"binary": {
 					"data": {
@@ -127,7 +127,7 @@
 				"json": {}
 			}
 		],
-		"HTTP Request (v2)": [
+		"StreamForge HTTP Request (v2)": [
 			{
 				"binary": {
 					"data": {
@@ -142,7 +142,7 @@
 				"json": {}
 			}
 		],
-		"HTTP Request (v3)": [
+		"StreamForge HTTP Request (v3)": [
 			{
 				"binary": {
 					"data": {
@@ -157,7 +157,7 @@
 				"json": {}
 			}
 		],
-		"HTTP Request (v4)": [
+		"StreamForge HTTP Request (v4)": [
 			{
 				"binary": {
 					"data": {
@@ -202,7 +202,7 @@
 				"json": {}
 			}
 		],
-		"HTTP Request (v4)2": [
+		"StreamForge HTTP Request (v4)2": [
 			{
 				"binary": {
 					"data": {
@@ -223,22 +223,22 @@
 			"main": [
 				[
 					{
-						"node": "HTTP Request (v1)",
+						"node": "StreamForge HTTP Request (v1)",
 						"type": "main",
 						"index": 0
 					},
 					{
-						"node": "HTTP Request (v2)",
+						"node": "StreamForge HTTP Request (v2)",
 						"type": "main",
 						"index": 0
 					},
 					{
-						"node": "HTTP Request (v3)",
+						"node": "StreamForge HTTP Request (v3)",
 						"type": "main",
 						"index": 0
 					},
 					{
-						"node": "HTTP Request (v4)",
+						"node": "StreamForge HTTP Request (v4)",
 						"type": "main",
 						"index": 0
 					},
@@ -253,7 +253,7 @@
 						"index": 0
 					},
 					{
-						"node": "HTTP Request (v4)2",
+						"node": "StreamForge HTTP Request (v4)2",
 						"type": "main",
 						"index": 0
 					}
@@ -262,3 +262,7 @@
 		}
 	}
 }
+
+
+
+

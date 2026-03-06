@@ -1,5 +1,5 @@
 {
-	"node": "n8n-nodes-base.httpRequest",
+	"node": "n8n-nodes-base.streamForgeHttpRequest",
 	"nodeVersion": "1.0",
 	"codexVersion": "1.0",
 	"categories": ["Development", "Core Nodes"],
@@ -81,7 +81,7 @@
 				"url": "https://n8n.io/blog/5-workflow-automations-for-mattermost-that-we-love-at-n8n/"
 			},
 			{
-				"label": "How to use the HTTP Request Node - The Swiss Army Knife for Workflow Automation",
+				"label": "How to use the StreamForge HTTP Request Node - The Swiss Army Knife for Workflow Automation",
 				"icon": "🧰",
 				"url": "https://n8n.io/blog/how-to-use-the-http-request-node-the-swiss-army-knife-for-workflow-automation/"
 			},
@@ -126,7 +126,7 @@
 			}
 		]
 	},
-	"alias": ["API", "Request", "URL", "Build", "cURL"],
+	"alias": ["StreamForge", "API", "Request", "URL", "Build", "cURL"],
 	"subcategories": {
 		"Core Nodes": ["Helpers"]
 	}
